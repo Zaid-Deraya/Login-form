@@ -1,0 +1,70 @@
+body {
+    background-image: url('./john-fowler-ppWthnXdbrM-unsplash.jpg');
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.box1 {
+    background-color: rgba(209, 224, 230, 0.5);
+    width: 300px;
+    margin: 150px auto;
+    box-shadow: 0px 5px 20px 5px rgb(128, 178, 194);
+    border: 3px solid rgb(144, 210, 236);
+    border-radius: 12px;
+    
+}
+
+.box1 h3 {
+    text-align: center;
+    padding: 8px;
+}
+
+input[type=email], input[type=password] {
+    padding: 8px;
+    width: 100%;
+    border: 1px dashed black;
+}
+
+input[type=email]:focus, input[type=password]:focus {
+    outline: 0px;
+}
+
+.form{
+    padding: 10px;
+    position: relative;
+}
+
+input[type=Submit] {
+    width: 100%;
+    background-color: rgb(126, 207, 144);
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    padding: 8px;
+    font-size: 1.2rem;
+}
+
+.form .fa {
+    position: absolute;
+    top: 50%;
+    right: 8%;
+    display: none;
+}
+
+.fa-times {
+    color: red;
+}
+
+.fa-check {
+    color: green;
+}
+
+#error {
+    text-align: center;
+}
